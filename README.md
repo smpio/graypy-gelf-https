@@ -3,7 +3,7 @@
 
 ## Description
 
-Extension for (graypy)[https://github.com/severb/graypy] with HTTPS GELF handler.
+Extension for [graypy](https://github.com/severb/graypy) with HTTPS GELF handler.
 
 
 ## Installing
