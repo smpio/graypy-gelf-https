@@ -1,14 +1,13 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='graypy_gelf_https',
-    version='1.0.0',
+    version='1.0.1',
     description='graypy extension with GELF HTTPS handler',
     license='MIT',
     author='Dmitrii Don',
     author_email='dondmitriys@gmail.com',
-    packages=find_packages('graypy_gelf_https'),
-    package_dir={'': 'graypy_gelf_https'},
+    packages=['graypy_gelf_https', ],
     url='https://github.com/smpio/graypy-gelf-https',
     keywords='logging gelf graylog https',
     install_requires=[
